@@ -6,6 +6,25 @@
   --dark-color: #000000;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   color: var(--secondary-color);
   font-family: 'Roboto', sans-serif;
@@ -17,6 +36,12 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1630px;
+  padding: 0px 15px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -36,6 +61,10 @@ a {
 
 .header {
   background: var(--light-color);
+}
+.logo {
+  padding: 24px 0 25px 0;
+  display: block;
 }
 
 .logo {
@@ -78,13 +107,14 @@ a {
   color: var(--primary-color);
 }
 
-
 /*------------HERO-----------*/
 
 .hero {
   background: #2f303a;
 }
-
+.hero-title {
+  padding: 200px 452px 280px 452px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -94,6 +124,9 @@ a {
   text-transform: uppercase;
 
   color: var(--light-color);
+}
+
+.hero-btn {
 }
 
 .hero-btn {
@@ -121,7 +154,6 @@ a {
   background-color: #188ce8;
 }
 
-
 /*-----------BENEFITS----------*/
 
 .benefits {
@@ -148,7 +180,6 @@ a {
   color: #757575;
 }
 
-
 /*----------ABOUT----------*/
 
 .about-us {
@@ -164,8 +195,6 @@ a {
 
   color: var(--secondary-color);
 }
-
-
 
 /*-----------TEAM------------*/
 
@@ -208,7 +237,6 @@ a {
 
   color: #757575;
 }
-
 
 /*----------FOOTER----------*/
 
@@ -255,9 +283,7 @@ a {
 .tab-btn:focus {
   color: var(--light-color);
   background: var(--primary-color);
-
 }
-
 
 /*-----------PROJECT-CARD-----------*/
 
