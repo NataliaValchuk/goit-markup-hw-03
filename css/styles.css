@@ -336,8 +336,11 @@ img {
   background-color: var(--light-color);
 }
 
-.control-item {
+.portfolio-page {
   margin: 0 auto;
+}
+
+.control-item {
   display: inline-block;
 }
 
